@@ -69,3 +69,125 @@ header{
     max-height: 290px;
     height: calc(100% - 560px);
 }
+
+.search-bar-container{
+    height: 48px;
+    display: flex;
+    width: 584px;
+    margin: 0 auto;
+    margin-top: 24px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    background: #fff;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.search-bar-container:hover{
+    box-shadow: 0 0 3px 3px rgb(241, 240, 240);
+    border: 1px solid rgb(231, 226, 226);
+}
+
+.search-bar-container > #search{
+    height: 100%;
+    /* width: 100%; */
+    display: block;
+    padding: 12px 0 10px 13px;
+    font-size: 21px;
+    color: rgb(167, 163, 163);
+}
+
+#search-field{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-top: -6px;
+    width: 443px;
+    border: white;
+    outline: none;
+    line-height: 27px;
+    height: 27px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+#mic,
+#camera{
+    display: flex;
+    justify-content: flex-end;
+    width: 60px;
+    height: 24px;
+    align-items: center;
+    margin-top: -2px;
+    position: relative;
+    cursor: pointer;
+}
+
+#camera{
+    margin-right: 16px;
+}
+
+#mic{
+    margin-right: 8px;
+}
+
+#mic > img{
+    height: 24px;
+    padding: 2px;
+}
+#camera > img{
+    height: 24px;
+    padding: 3px;
+}
+
+.drop-down{
+    display: block;
+    width: 0;
+    border: 5px solid;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.747);
+    position: absolute;
+    top: 145%;
+    transform: translateY(-50%);
+    margin-right: 5px;
+    visibility: hidden;
+}
+
+#mic > .drop-down{
+    margin-right: 4px;
+}
+
+#mic:hover .drop-down,
+#camera:hover .drop-down{
+    visibility: visible;
+}
+
+#mic .tooltiptext-1,
+#camera .tooltiptext-2 {
+    visibility: hidden;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.795);
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 11px;
+    height: 25px;
+   
+    position: absolute;
+    top: 165%;
+    right: -40px;
+ 
+  }
+
+#mic:hover .tooltiptext-1, 
+#camera:hover .tooltiptext-2 {
+    visibility: visible;
+}
+
+
+
+
