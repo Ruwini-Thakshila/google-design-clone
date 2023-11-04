@@ -346,8 +346,10 @@ button:hover{
         flex-direction: column;
     }
 
-    #settings{
+    #settings,
+    #about{
         justify-content: flex-start;
+        gap: 40px;
     }
 
     .search-bar-container{
@@ -365,9 +367,12 @@ button:hover{
         flex-direction: column;
     }
 
-    #settings{
+    #settings,
+    #about{
         justify-content: flex-start;
+        gap: 45px;
     }
+
 
     .search-bar-container{
         width: 380px;
@@ -375,6 +380,132 @@ button:hover{
 
     form{
         width: 280px;
+    }
+
+}
+
+@media all and (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #202124; 
+        color: #bdc1c6;       
+    }
+
+    
+    #gmail,
+    #images{
+        color: white; 
+    }
+
+
+    #google-apps-container .material-symbols-outlined{
+    
+        color: rgba(255,255,255,.87);
+    }
+    
+    #google-apps-container .material-symbols-outlined:hover{
+        background-color: rgba(255, 255, 255, 0.11);
+        border-radius: 50%;
+    }
+    
+    
+    
+    #google-apps-container .tooltiptext {
+        background-color: rgba(255, 255, 255, 0.288);
+        color: #fff; 
+    }
+ 
+    #sign-in{
+        background-color: #8AB4F8;
+        color: #202124;
+    }
+    
+    #sign-in:hover{
+        background-color: #95b9f1;
+    
+    }
+    
+    #google-logo{
+        content: url("/img/google-logo-dark.png");
+        width: 272px;
+        height: 92px;
+    }
+    
+    .search-bar-container{
+
+        border: 1px solid #5f6368;
+        background: none;
+        margin-top: 26px;
+    
+    }
+    
+    .search-bar-container:hover{
+        box-shadow: none;
+        border: none;
+        background-color: #ffffff15;
+    }
+
+    .search-bar-container:hover #search-field{
+        background-color: inherit;
+    }
+    
+    #search-field{
+    
+        border: none;
+        background-color: #202124;
+        color: white;
+    }
+
+    #search-field:hover{
+        background-color: inherit;
+    }
+    
+    .drop-down{
+
+        border-bottom-color: rgba(0, 0, 0, 0.24);   
+    }
+ 
+    #mic .tooltiptext-1,
+    #camera .tooltiptext-2 {
+ 
+        background-color: rgba(0, 0, 0, 0.24);
+        color: #ffffffad; 
+      }
+    
+    .buttons-container button{
+        background-color: #303134;
+        border: 1px solid #303134;
+        color: #e8eaed;
+        
+    }
+    
+    button:hover{
+        border: 1px solid rgb(221, 221, 221);
+        box-shadow: 0px 0.5px 0px 0px lightgray ;
+    }
+    
+    #google-offered-in{
+        color: #bdc1c6;
+    }
+    
+    .sinhala-tamil{
+        color: #8ab4f8;;
+
+    }  
+    
+    #bottom{
+        height: 94px;
+        background-color: #171717;
+    }
+    
+    #country{
+        color: #9AA0A6;
+        border-bottom: 1px solid #3c4043;
+        
+    }
+    #about,
+    #settings{
+        color: #9AA0A6;
     }
 
 }
