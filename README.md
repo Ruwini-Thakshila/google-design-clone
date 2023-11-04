@@ -11,6 +11,6 @@ This project is licensed under the [MIT License](License.txt)
 * HTML 5
 * CSS 3
 
-### Screnshots
+### Screenshots
 ![Google Design Clone Light Mode](/img/screenshots/google-design-clone-light-mode.png)
 ![Google Design Clone Dark Mode](/img/screenshots/google-design-clone-dark-mode.png)
