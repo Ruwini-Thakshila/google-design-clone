@@ -7,3 +7,10 @@ body{
     font-size: 14px;
     color: #202124;
 }
+
+@media all and (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
