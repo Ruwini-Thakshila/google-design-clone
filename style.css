@@ -9,7 +9,7 @@ body{
 }
 
 @media all and (prefers-color-scheme: dark) {
-    #google-logo{
+    #google-logo img{
         content: url("/img/google-logo-dark.png");
         width: 272px;
         height: 92px;
