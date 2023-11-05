@@ -7,11 +7,3 @@ body{
     font-size: 14px;
     color: #202124;
 }
-
-@media all and (prefers-color-scheme: dark) {
-    #google-logo img{
-        content: url("/img/google-logo-dark.png");
-        width: 272px;
-        height: 92px;
-    }
-}

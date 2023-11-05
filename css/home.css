@@ -105,6 +105,14 @@ header{
     height: calc(100% - 560px);
 }
 
+#google-logo .google-logo-dark{
+    display: none ;
+}
+
+#google-logo .google-logo-light{
+    display: initial;
+}
+
 .search-bar-container{
     height: 48px;
     display: flex;
@@ -422,13 +430,15 @@ button:hover{
     
     #sign-in:hover{
         background-color: #95b9f1;
-    
+    }
+
+    #google-logo .google-logo-dark{
+        display: initial ;
     }
     
-    #google-logo img{
-        content: url("/img/google-logo-dark.png");
-        width: 272px;
-        height: 92px;
+    #google-logo .google-logo-light{
+        display: none;
+    
     }
     
     .search-bar-container{
