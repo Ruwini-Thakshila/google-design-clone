@@ -3,8 +3,15 @@ All product logos, designs, and trademarks, with the exception of the code, are 
 
 Please note that this clone project is an experimental design for educational and demonstration purposes only.
 
+### Usage
+This project can use to:
+* Study Google's design principles and user interface.
+* Learn front-end web development by examining the code and making changes.
+* Experiment with design and layout to gain hands-on experience.
+
+Feel free to explore and make modifications to the project. There's no real backend or functionality associated with this clone; it's focused on design and layout.
+
 ### License
-Copyright &copy; 2023 DEP-11. All Rights Reserved.
 This project is licensed under the [MIT License](License.txt)
 
 ### Technologies
