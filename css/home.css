@@ -350,6 +350,15 @@ button:hover{
 }
 
 @media all and (min-width: 600px) and (max-width: 767px){
+
+    .search-bar-container{
+        width: 480px;
+    }
+
+    form{
+        width: 380px;
+    }
+    
     #bottom-fields{
         flex-direction: column;
     }
@@ -360,17 +369,19 @@ button:hover{
         gap: 40px;
     }
 
-    .search-bar-container{
-        width: 480px;
-    }
-
-    form{
-        width: 380px;
-    }
+   
 
 }
 
 @media all and (min-width: 425px) and (max-width: 600px){
+    .search-bar-container{
+        width: 380px;
+    }
+
+    form{
+        width: 280px;
+    }
+
     #bottom-fields{
         flex-direction: column;
     }
@@ -381,14 +392,26 @@ button:hover{
         gap: 45px;
     }
 
+}
 
+@media all and (min-width: 375px) and (max-width: 425px){
     .search-bar-container{
-        width: 380px;
+        width: 280px;
     }
 
     form{
-        width: 280px;
+        width: 180px;
     }
+
+    #bottom-fields{
+        flex-direction: column;
+    }
+
+    #settings,
+    #about{
+        justify-content: flex-start;
+        gap: 40px;
+    }   
 
 }
 
