@@ -355,13 +355,17 @@ button:hover{
         width: 480px;
     }
 
+    #search-field{
+        width: 330px;
+    }
+
     form{
         width: 380px;
     }
-    
-    #bottom-fields{
+
+    /* #bottom-fields{
         flex-direction: column;
-    }
+    } */
 
     #settings,
     #about{
@@ -373,12 +377,16 @@ button:hover{
 
 }
 
-@media all and (min-width: 425px) and (max-width: 600px){
+@media all and (min-width: 445px) and (max-width: 600px){
     .search-bar-container{
         width: 380px;
     }
 
     form{
+        width: 280px;
+    }
+
+    #search-field{
         width: 280px;
     }
 
@@ -394,23 +402,28 @@ button:hover{
 
 }
 
-@media all and (min-width: 375px) and (max-width: 425px){
+@media all and (min-width: 375px) and (max-width: 445px){
     .search-bar-container{
-        width: 280px;
+        width: 250px;
     }
 
     form{
-        width: 180px;
+        width: 150px;
     }
 
+    #search-field{
+        width: 150px;
+    }
     #bottom-fields{
         flex-direction: column;
     }
 
+    #bottom
+
     #settings,
     #about{
         justify-content: flex-start;
-        gap: 40px;
+        gap: 25px;
     }   
 
 }
